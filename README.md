@@ -13,3 +13,13 @@ New elements are created below and come up from below and just like tetris block
 Now, when you remove an element from the normal document flow, you're basically making a tetris. You're making that element's space that it's taking up across the page disappear. When that "space" disappears, the elements below it quickly move up to fill that space. So using one of the positioning schemes that "removes an element from the document flow" is basically like getting a tetris on that elements page space that it was taking up. It goes poof and the blocks(elements) below collapse upwards.
 
 [HTML Document Flow](https://app.pluralsight.com/library/courses/html-document-flow-1837/) | [The Flow - The default behavior of a webpage](https://marksheet.io/css-the-flow.html) | [Quick Tip: Utilizing Normal Document Flow](https://webdesign.tutsplus.com/articles/quick-tip-utilizing-normal-document-flow--webdesign-8199)
+
+
+### Progressive Enhancement and Hierarchy
+
+Progressive enhancement has been the hallmark of the responsible approach to standards-based web design. By beginning with a foundation of semantic, well-structured markup, styled with a layer of CSS, and DOM scripting via JavaScript added as needed, we can create compelling experiences in capable browsers, while ensuring universal access to the content beneath the design.
+
+Stephen Hay reiterated the need for progressive enhancement as well, in his fantastic essay “[There is no Mobile Web](http://www.the-haystack.com/2011/01/07/there-is-no-mobile-web/)”.
+
+**Book: A Book Apart - Responsive Web Design (2011)**
+
