@@ -32,3 +32,13 @@ So, here's an example of some of our sectioning elements. This isn't the complet
 [Flow content](https://www.w3.org/TR/2016/REC-html51-20161101/dom.html#kinds-of-content-flow-content) | [Sectioning content](https://www.w3.org/TR/2016/REC-html51-20161101/dom.html#kinds-of-content-sectioning-content) | [Heading content](https://www.w3.org/TR/2016/REC-html51-20161101/dom.html#kinds-of-content-heading-content)
 
 
+### Adding External Fonts
+
+[typekit](https://typekit.com) |
+[Google Fonts](https://fonts.google.com/) |
+[Adobe Creative](https://www.adobe.com/creativecloud.html)
+
+### CSS Resets
+
+[normalize.css](https://github.com/necolas/normalize.css)
+
