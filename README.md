@@ -23,3 +23,12 @@ Stephen Hay reiterated the need for progressive enhancement as well, in his fant
 
 **Book: A Book Apart - Responsive Web Design (2011)**
 
+### HTML5 Sectioning Elements
+
+In HTML, we have a group of elements that are referred to as sectioning elements, and there are many more added in HTML5 to make it easier to describe our content a more semantic way. So, sectioning elements are any of these elements that are intended to divide up content into these logical sections. Allows for us to build our outline in a semantic way and for styles to be applied to that grouped content. 
+
+So, here's an example of some of our sectioning elements. This isn't the complete list, but these are some of the most common ones. So, we have our new HTML5 elements or newer, we have things like **`address, article, aside, header, footer, section, nav`, and prior versions of HTML, including HTML5, we also have `div`**, and while it's not really technically a sectioning element as we think of, the semantic elements added in HTML5, **`div`** is just a generic container for styling. So, you can think of it in the same category although it isn't technically a sectioning element. It achieves some of the same things. So, you've heard me refer to this word, semantic, a lot, and if you aren't familiar with semantic HTML, it just means taking the most meaningful and descriptive element as possible when you describe your content. 
+
+[Flow content](https://www.w3.org/TR/2016/REC-html51-20161101/dom.html#kinds-of-content-flow-content) | [Sectioning content](https://www.w3.org/TR/2016/REC-html51-20161101/dom.html#kinds-of-content-sectioning-content) | [Heading content](https://www.w3.org/TR/2016/REC-html51-20161101/dom.html#kinds-of-content-heading-content)
+
+
