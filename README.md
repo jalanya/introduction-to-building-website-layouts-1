@@ -42,3 +42,14 @@ So, here's an example of some of our sectioning elements. This isn't the complet
 
 [normalize.css](https://github.com/necolas/normalize.css)
 
+
+### Typographic Scales and Vertical Rhythm
+
+What is a Typographic Scale?
+
+A way to set type size based on a ratio. Compared to setting type arbitrarily 
+or based on "what looks good", using a typographic scale helps keep type 
+size consistent and set in a way that is scientifically pleasing to the eye.
+
+[Modular Scale](http://www.modularscale.com/) |
+[CSS with vertical rhythm](https://drewish.com/tools/vertical-rhythm/)
