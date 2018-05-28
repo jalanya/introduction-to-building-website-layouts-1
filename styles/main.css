@@ -13,8 +13,6 @@ BLACK: rgb(15,15,15)
                            GLOBAL STYLES
 ------------------------------------------------------------------ */
 
-
-
 body {
   font-size: 19px;
   font-family: "alegreya", calibri, candara, "segoe UI", Optima, Arial, sans-serif;
@@ -55,3 +53,35 @@ p {
 img {
   width: 100%;
 }
+
+a:link {
+  color: rgb(172, 140, 71);
+}
+  
+  a:visited {
+    color: rgb(100, 81, 41);
+  }
+
+  a:hover {
+    color: rgb(224, 182, 90);
+  }
+  
+  a:active {
+    color: rgb(252, 217, 142);
+  }
+
+/* ------------------------------------------------------------------
+                           GLOBAL FOOTER STYLES
+------------------------------------------------------------------ */
+
+footer {
+  padding: 10px 0;
+}
+
+  footer h4 {
+    text-transform: uppercase;
+  }
+
+  footer p {
+    margin: 0;
+  }
