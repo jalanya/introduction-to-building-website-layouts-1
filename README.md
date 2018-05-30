@@ -53,3 +53,13 @@ size consistent and set in a way that is scientifically pleasing to the eye.
 
 [Modular Scale](http://www.modularscale.com/) |
 [CSS with vertical rhythm](https://drewish.com/tools/vertical-rhythm/)
+
+### Understanding the Cascade: Source Order
+
+Let's take a look at different ways in which styles can be applied to an element. The first way we can apply styles to an element is by **`authors`**. So, that's us as web designers and developers. If we write things like browser resets, like the normalize.css we pulled in, all of these are considered an author's style so created by the web person, web designer or developer. 
+
+We also have **`users`** that can apply styles as well. And these sources will be coming from things like browser preferences. So, if they go in there and they change the default zoom or the default font that sites are using, the default font size, they can go into their settings for browsers and change all of these things themselves, which is going to generate an additional source of styles that are being applied. And there are also other ways that users can apply styles as well such as if they have accessibility issues or something of that nature, maybe they're using a program which is generating style sheets for them based on what preferences they have for their accessibility needs, or if they have poor vision and things of that nature. 
+
+The last way styles can be applied is by **`user agents`**. So, these are things like generally browsers. So each different browser has its own set of default styles, which is why we see headings without any CSS being applied by us. There are default fonts already. There are default margins and paddings, and headings are bold, all of the things we see kind of reset to a baseline when we bring in a browser reset, like normalize.css, or something like that so we have those default browser styles to think about as well.
+
+[Introducing the CSS Cascade](https://developer.mozilla.org/en-US/docs/Web/CSS/Cascade)
