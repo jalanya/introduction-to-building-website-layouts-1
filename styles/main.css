@@ -118,6 +118,19 @@ a:link {
   color: rgb(180, 180, 180);
 }
 
+  .main-navigation a:visited {
+    color: rgb(106, 106, 106);
+  }
+
+  .main-navigation a:hover {
+    color: rgb(255, 255, 255);
+    transition: .5s color;
+  }
+
+  .main-navigation a:active {
+    color: rgb(172, 140, 71);
+  }
+
 /* ------------------------------------------------------------------
                            GLOBAL FOOTER STYLES
 ------------------------------------------------------------------ */
