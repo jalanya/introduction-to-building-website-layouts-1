@@ -16,6 +16,11 @@ BLACK: rgb(15,15,15)
 body {
   font-size: 19px;
   font-family: "alegreya", calibri, candara, "segoe UI", Optima, Arial, sans-serif;
+  color: rgb(226, 226, 226);
+  background: rgb(15, 15 , 15);
+  background-image: url(../images/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 h1, h2, h3 {
