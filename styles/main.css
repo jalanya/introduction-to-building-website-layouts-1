@@ -104,6 +104,23 @@ a:link {
     border-radius: 10px;
   }
 
+.featured-info h3 {
+  border-bottom: 1px solid rgb(128, 128, 128);
+}
+
+.featured-info p {
+  font-style: italic;
+}
+
+.featured-info ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.gallery {
+  margin-top: 30px;  
+}
+
 /* ------------------------------------------------------------------
                            LOGO STYLES
 ------------------------------------------------------------------ */
@@ -156,20 +173,11 @@ a:link {
   }
 
 /* ------------------------------------------------------------------
-                           HOME PAGE STYLES
+                           MENU PAGE STYLES
 ------------------------------------------------------------------ */
 
-.featured-info h3 {
-  border-bottom: 1px solid rgb(128, 128, 128);
-}
-
-.featured-info p {
+.menu-page .featured-info ul {
   font-style: italic;
-}
-
-.featured-info ul {
-  list-style: none;
-  padding-left: 0;
 }
 
 /* ------------------------------------------------------------------
