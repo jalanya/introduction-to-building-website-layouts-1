@@ -97,6 +97,28 @@ a:link {
 
 
 /* ------------------------------------------------------------------
+                           MAIN NAVIGATION STYLES
+------------------------------------------------------------------ */
+.main-navigation ul {
+  padding-left: 0;
+}
+
+.main-navigation li {
+  list-style: none;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.main-navigation a {
+  display: block;
+  padding: 15px 10px;
+  text-decoration: none;
+  text-transform: uppercase;
+  background: rgba(67, 67, 67, 0.17);
+  color: rgb(180, 180, 180);
+}
+
+/* ------------------------------------------------------------------
                            GLOBAL FOOTER STYLES
 ------------------------------------------------------------------ */
 
