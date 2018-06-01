@@ -83,6 +83,27 @@ a:link {
   a:active {
     color: rgb(252, 217, 142);
   }
+
+.button {
+  background-color: rgb(172, 140, 71);
+  border-radius: 10px;
+}
+
+  .button a {
+    color: rgb(226, 226, 226);
+    text-decoration: none;
+    font-style: normal;
+    text-transform: uppercase;
+    text-align: center;
+    display: block;
+    padding: 10px 0;
+  }
+
+  .button a:hover {
+    background-color: rgb(119, 97, 48);
+    border-radius: 10px;
+  }
+
 /* ------------------------------------------------------------------
                            LOGO STYLES
 ------------------------------------------------------------------ */
