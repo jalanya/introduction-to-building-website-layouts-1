@@ -63,3 +63,18 @@ We also have **`users`** that can apply styles as well. And these sources will b
 The last way styles can be applied is by **`user agents`**. So, these are things like generally browsers. So each different browser has its own set of default styles, which is why we see headings without any CSS being applied by us. There are default fonts already. There are default margins and paddings, and headings are bold, all of the things we see kind of reset to a baseline when we bring in a browser reset, like normalize.css, or something like that so we have those default browser styles to think about as well.
 
 [Introducing the CSS Cascade](https://developer.mozilla.org/en-US/docs/Web/CSS/Cascade)
+
+### Media Queries
+
+```
+@media screen and (min-width: 750px) {
+  
+  .main-navigation a:visited {
+    color: red;
+  }
+
+}
+```
+Most mobile devices, or at least in portrait, are going to be smaller than about 650 pixels so we have a little bit of buffer there, and of course, we would want to test that assumption to ensure that, that is the case. **So, here it says media screen, and we're going to use minimum width as our condition so anything above 750 pixels, it's going to be served the style. So, `min-width: 750px`, and then we could add all our CSS we want to apply under these conditions inside.**
+
+[Using media queries](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries) | [Targeting media features](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries#Targeting_media_features)
