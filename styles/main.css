@@ -71,6 +71,10 @@ p {
   font-weight: 100;
 }
 
+li {
+  font-weight: 100;  
+}
+
 img {
   width: 100%;
 }
@@ -93,7 +97,7 @@ a:link {
 
 .button {
   background-color: rgb(172, 140, 71);
-  border-radius: 10px;
+  border-radius: 8px;
 }
 
   .button a {
