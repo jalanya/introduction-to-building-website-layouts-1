@@ -282,6 +282,30 @@ a:link {
 }
 
 /* ------------------------------------------------------------------
+                      LOCATION & HOURS PAGE STYLES
+------------------------------------------------------------------ */
+
+@media screen and (min-width: 1050px) {
+  
+  .location-page .featured-info {
+    float: none;
+    width: 100%;
+  }
+  
+  .location-page .landing {
+    float: left;
+    text-align: left;
+    width: 56%;
+  }
+  
+  .location-page .sidebar {
+    float: right;
+    width: 30%;
+  }
+  
+}
+
+/* ------------------------------------------------------------------
                            GLOBAL FOOTER STYLES
 ------------------------------------------------------------------ */
 
