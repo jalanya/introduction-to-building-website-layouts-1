@@ -69,6 +69,7 @@ p {
   margin-top: 1.4211em;
   margin-bottom: 0;
   font-weight: 100;
+  max-width: 700px;
 }
 
 li {
@@ -98,6 +99,7 @@ a:link {
 .button {
   background-color: rgb(172, 140, 71);
   border-radius: 8px;
+  max-width: 250px;
 }
 
   .button a {
@@ -128,6 +130,14 @@ a:link {
   padding-left: 0;
 }
 
+@media screen and (min-width: 1050px) {
+  .featured-info {
+    float: left;
+    width: 30%;
+    margin-left: 3%
+  }  
+}
+
 .gallery {
   margin-top: 30px;  
 }
@@ -137,6 +147,9 @@ a:link {
   .landing {
     text-align: center;
   }
+    .landing p {
+      margin: 0 auto;
+    }
   
 }
 
@@ -237,12 +250,20 @@ a:link {
   font-style: italic;
 }
 
+.menu-page .featured-info {
+  float: none;
+  text-align: center;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
 /* ------------------------------------------------------------------
                            GLOBAL FOOTER STYLES
 ------------------------------------------------------------------ */
 
 footer {
   padding: 10px 0;
+  clear: both;
 }
 
   footer h4 {
