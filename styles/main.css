@@ -142,6 +142,30 @@ a:link {
   margin-top: 30px;  
 }
 
+@media screen and (min-width: 600px) {
+  
+  .gallery {
+    width: 446px;
+    margin: 0 auto;
+  }
+    .gallery img {
+      max-width: 220px;  
+    }
+  
+} /* media query for 600px */
+
+@media screen and (min-width: 1050px) {
+  
+  .gallery {
+    width: 567px;
+    margin: 0 auto;
+  }
+    .gallery img {
+      max-width: 280px;  
+    }
+  
+} /* media query for 1050px */
+
 @media screen and (min-width: 750px) {
   
   .landing {
