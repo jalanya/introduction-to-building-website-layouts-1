@@ -78,3 +78,7 @@ The last way styles can be applied is by **`user agents`**. So, these are things
 Most mobile devices, or at least in portrait, are going to be smaller than about 650 pixels so we have a little bit of buffer there, and of course, we would want to test that assumption to ensure that, that is the case. **So, here it says media screen, and we're going to use minimum width as our condition so anything above 750 pixels, it's going to be served the style. So, `min-width: 750px`, and then we could add all our CSS we want to apply under these conditions inside.**
 
 [Using media queries](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries) | [Targeting media features](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries#Targeting_media_features)
+
+### Testing: Validation, Contrast, and Cross-browser
+
+[W3C's validator Nu Checker](https://validator.w3.org/nu/) | [ Web Accessibility - Color contrast checker](https://webaim.org/resources/contrastchecker/)

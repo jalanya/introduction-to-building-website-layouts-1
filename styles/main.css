@@ -141,6 +141,10 @@ a:link {
 .gallery {
   margin-top: 30px;  
 }
+  
+  .gallery img {
+    width: 500px;
+  }
 
 @media screen and (min-width: 600px) {
   
@@ -297,6 +301,11 @@ a:link {
     text-align: left;
     width: 56%;
   }
+    
+    .location-page .landing p {
+      margin-left: 0;
+      margin-right: 0;
+    }
   
   .location-page .sidebar {
     float: right;
